@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Encryption</title>
+  <link rel="stylesheet" href="https://stackedit.io/style.css" />
+</head>
+
+<body class="stackedit">
+  <div class="stackedit__html"><h1 id="how-to-use-this-shit">How to use this <strong>shit</strong></h1>
+<h2 id="encryption.exe">1. Encryption.exe</h2>
+<p>This file creates another .txt file which stores the codes, that are <strong>FUNDAMENTAL</strong> for the decryption, don’t delete this, do not edit anything and don’t <strong>PLEASE</strong> don’t move it out of the folder. Be aware that the Encryption.exe, the .txt and the Decryption.exe <strong>HAVE</strong> to be in the <strong>EXACT SAME FOLDER</strong> or else it will break my shit.</p>
+<h3 id="soooo...-how-does-this-encryption-stuff-work">Soooo… how does <em>this</em> encryption stuff work?</h3>
+<ol>
+<li>You enter a sentence, word or anything really, except numbers and special characters, this only works for normal characters thanks</li>
+<li>It gives each unique character a unique ID, encrypts it by multiplying the ID by 16384 because I felt like it and then it encrypts it into Base64</li>
+<li>It quickly decrypts the sentence, so you can actually see the encrypted and decrypted input at the end. Pretty simple</li>
+<li>It creates a .txt file, which contains the unique ID of every single character in the message</li>
+</ol>
+<h2 id="decryption.exe">2. Decryption.exe</h2>
+<p>This uses the .txt file to decrypt everything from the .txt file, thats why you shouldn’t delete or edit it to decrypt it.</p>
+<ol>
+<li>It loads each line from the .txt file</li>
+<li>Decrypts the Codes from the .txt file into ascii and then divides the number by 16384</li>
+<li>Converts the number into an Ascii-Character</li>
+<li>Shows the Decrypted Text at the end.</li>
+</ol>
+</div>
+</body>
+
+</html>
